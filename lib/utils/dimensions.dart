@@ -10,6 +10,7 @@ class Dimensions {
   static double smallTextSize = 15.00.sp;
   static double extraSmallTextSize = 14.00.sp;
   static double smallestTextSize = 12.00.sp;
+  static double extraSmallestTextSize = 11.00.sp;
   static double largeTextSize = 20.00.sp;
 
   static double radius = 10.00.r;
