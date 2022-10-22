@@ -6,7 +6,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../utils/custom_color.dart';
 import '../utils/custom_style.dart';
+import '../views/consulation_page.dart';
 import '../views/home_page.dart';
+import '../views/profile_page.dart';
 
 class BottomNavBar extends StatefulWidget {
   static const routeName = 'bottom-nav-bar';
@@ -19,15 +21,11 @@ class _BottomNavBarState extends State<BottomNavBar> {
   int _currentIndex = 0;
   List _screens = [
     HomePage(),
-    Center(
-      child: Text('2'),
-    ),
+    ConsulationPage(),
     Center(
       child: Text('3'),
     ),
-    Center(
-      child: Text('4'),
-    ),
+    ProfilePage(),
   ];
 
   void _updateIndex(int value) {

@@ -73,4 +73,15 @@ class CustomString {
   static const String HVideoTxt = 'Video';
   static const String HShopTxt = 'Shop Online';
 
+
+  // consulation page
+  static const String CBtncTxt = 'CONSULATION NOW';
+  static const String CTitle1Txt = 'Get first 15 Min. Personalized one to one phone consultation';
+  static const String CTitle2Txt = 'Personalized one to one consultation on the phone';
+  static const String CTitle3Txt = 'Personalized consultation';
+  static const double CAmount1Txt = 499;
+  static const double CAmount2Txt = 499;
+  static const double CAmount3Txt = 100;
+
+
 }
