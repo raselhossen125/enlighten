@@ -8,6 +8,7 @@ import '../models/drawer_listItem_model.dart';
 import '../utils/custom_string.dart';
 import '../utils/custom_style.dart';
 import '../utils/dimensions.dart';
+import 'bottom_nav_bar.dart';
 
 class MainDrawer extends StatelessWidget {
   @override
@@ -45,10 +46,14 @@ class MainDrawer extends StatelessWidget {
                   itemBuilder: (context, index) {
                     final itemM = drawerItemList[index];
                     return ListTile(
+                      onTap: () {
+                        _navigator(index, context);
+                      },
                       dense: true,
                       contentPadding: EdgeInsets.all(0),
                       leading: Image.asset(itemM.image),
-                      title: Text(itemM.title.toUpperCase(), style: CustomStyle.white16w500),
+                      title: Text(itemM.title.toUpperCase(),
+                          style: CustomStyle.white16w500),
                     );
                   },
                 ),
@@ -96,5 +101,11 @@ class MainDrawer extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  void _navigator(int index, BuildContext context) {
+    index == 0
+        ? Navigator.of(context).pushReplacementNamed(BottomNavBar.routeName)
+        : null;
   }
 }

@@ -7,6 +7,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../models/consulation_model.dart';
 import '../utils/custom_string.dart';
 import '../utils/custom_style.dart';
+import '../views/peyment_page.dart';
 import 'custom_button.dart';
 
 class ConsulationItem extends StatelessWidget {
@@ -56,17 +57,64 @@ class ConsulationItem extends StatelessWidget {
                       '@ ${conM.amount.toString()}',
                       style: CustomStyle.Black23w700,
                     ),
-              CustomButon(
-                height: 45.h,
-                width: 233.w,
-                title: CustomString.CBtncTxt.toUpperCase(),
-                isPrefixIcon: true,
-                prefixIconImage: CustomString.homeCallImage,
+              InkWell(
+                onTap: () {
+                  _showBottomSheetRecharge(context);
+                },
+                child: CustomButon(
+                  height: 45.h,
+                  width: 233.w,
+                  title: CustomString.CBtncTxt.toUpperCase(),
+                  isPrefixIcon: true,
+                  prefixIconImage: CustomString.homeCallImage,
+                ),
               ),
             ],
           ),
         ),
       ),
+    );
+  }
+
+  _showBottomSheetRecharge(BuildContext context) {
+    showModalBottomSheet(
+      isScrollControlled: true,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16),
+      ),
+      context: context,
+      builder: (context) {
+        return Padding(
+          padding: EdgeInsets.all(Dimensions.defaultPaddingSize),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(CustomString.BSTitleTxt, style: CustomStyle.titleStyle),
+              SizedBox(height: Dimensions.heightSize8 - 3),
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: Dimensions.defaultPaddingSize),
+                child: Divider(color: CustomColor.txtBlackColor.withOpacity(0.20)),
+              ),
+              SizedBox(height: Dimensions.heightSize8 * 2 + 1),
+              Image.asset(CustomString.rechargeImage),
+              SizedBox(height: Dimensions.heightSize8 * 2 + 1),
+              Text(CustomString.BSSubtitleTxt, style: CustomStyle.subTitletyle),
+              SizedBox(height: Dimensions.heightSize8 * 4),
+              InkWell(
+                onTap: () {
+                  Navigator.of(context).pushNamed(PaymentPage.routeName);
+                },
+                child: CustomButon(
+                  width: 157.w,
+                  height: 28.h,
+                  title: CustomString.BSTitleTxt,
+                  titleSize: 16.sp,
+                ),
+              ),
+            ],
+          ),
+        );
+      },
     );
   }
 }

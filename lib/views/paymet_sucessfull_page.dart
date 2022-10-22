@@ -16,6 +16,7 @@ class PaymentSucessfullPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: CustomColor.bgColor,
       drawer: MainDrawer(),
       appBar: MyAppBar(),
       body: Padding(

@@ -34,6 +34,7 @@ class CustomString {
   static const String homeBanerImage = 'images/homeBaner.png';
   static const String paymentSucessfullImage = 'images/sucessfull.png';
   static const String rechargeImage = 'images/rechargeImage.png';
+  static const String insafImage = 'images/insaf.png';
 
   static const String appbarTitleTxt = 'ENLIGHTEN MIND';
 
@@ -95,6 +96,13 @@ class CustomString {
   // appbar bottomSheat 
   static const String BSTitleTxt = 'Reacharge';
   static const String BSSubtitleTxt = 'Please reacharge your wallet before calling';
+
+
+  // payment page
+  static const String PLanguageTxt = 'English';
+  static const String PInsafTxt = 'Insaaf';
+  static const String PInsafDescTxt = 'Consultancy Payment';
+  static const String PPriceTxt = '₹  99';
 
 
 

@@ -5,6 +5,7 @@ import 'package:enlighten/widgets/main_drawer.dart';
 import 'package:enlighten/widgets/my_appbar.dart';
 import 'package:flutter/material.dart';
 import '../models/consulation_model.dart';
+import '../utils/custom_color.dart';
 import '../utils/dimensions.dart';
 
 class ConsulationPage extends StatelessWidget {
@@ -13,6 +14,7 @@ class ConsulationPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: CustomColor.bgColor,
       drawer: MainDrawer(),
       appBar: MyAppBar(),
       body: Padding(
