@@ -53,10 +53,28 @@ class CustomStyle {
     color: CustomColor.txtBlackColor,
   );
 
+  static var Black21w400 = TextStyle(
+    fontWeight: FontWeight.w400,
+    fontSize: Dimensions.largeTextSize21,
+    color: CustomColor.txtBlackColor,
+  );
+
+  static var Black23w700 = TextStyle(
+    fontWeight: FontWeight.w700,
+    fontSize: Dimensions.extraLargeTextSize,
+    color: CustomColor.txtBlackColor,
+  );
+
   static var white24w700 = TextStyle(
     fontWeight: FontWeight.w700,
     fontSize: Dimensions.extraLargeTextSize,
     color: CustomColor.whiteColor,
+  );
+
+  static var primary24w700 = TextStyle(
+    fontWeight: FontWeight.w700,
+    fontSize: Dimensions.extraLargeTextSize,
+    color: CustomColor.primaryColor,
   );
 
   static var white16w500 = TextStyle(
