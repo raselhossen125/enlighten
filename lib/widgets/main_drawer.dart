@@ -4,7 +4,6 @@ import 'package:enlighten/utils/custom_color.dart';
 import 'package:enlighten/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 import '../models/drawer_listItem_model.dart';
 import '../utils/custom_string.dart';
 import '../utils/custom_style.dart';
@@ -34,11 +33,11 @@ class MainDrawer extends StatelessWidget {
                     child: Image.asset(CustomString.CrossImage),
                   ),
                 ),
-                SizedBox(height: Dimensions.heightSize8),
+                SizedBox(height: Dimensions.heightSize8 - 3),
                 Image.asset(CustomString.drawerProfileImage),
-                SizedBox(height: Dimensions.heightSize8 * 2),
+                SizedBox(height: Dimensions.heightSize8 * 2 - 2),
                 Text(CustomString.PhoneTxt, style: CustomStyle.white24w700),
-                SizedBox(height: Dimensions.heightSize8 * 7),
+                SizedBox(height: Dimensions.heightSize8 * 7 + 3),
                 ListView.builder(
                   primary: false,
                   shrinkWrap: true,
@@ -53,7 +52,7 @@ class MainDrawer extends StatelessWidget {
                     );
                   },
                 ),
-                SizedBox(height: Dimensions.heightSize8 * 4),
+                SizedBox(height: Dimensions.heightSize8 * 4 + 2),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -71,7 +70,7 @@ class MainDrawer extends StatelessWidget {
                         color: CustomColor.whiteColor),
                   ],
                 ),
-                SizedBox(height: Dimensions.heightSize8 * 2),
+                SizedBox(height: Dimensions.heightSize8 * 2 - 2),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -82,7 +81,7 @@ class MainDrawer extends StatelessWidget {
                     Image.asset(CustomString.drawerInstagramImage),
                   ],
                 ),
-                SizedBox(height: Dimensions.heightSize8 * 7),
+                SizedBox(height: Dimensions.heightSize8 * 7 + 2),
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 15.r),
                   child: CustomButon(

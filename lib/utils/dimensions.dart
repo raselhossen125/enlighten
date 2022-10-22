@@ -16,6 +16,8 @@ class Dimensions {
   static double radius = 10.00.r;
 
   static double defaultPaddingSize = 20.00.r;
+  static double PaddingSize15 = 15.00.r;
+  static double PaddingSize10 = 10.00.r;
   static double extraLargePaddingSize = 48.00.r;
   static double PaddingSize8 = 8.00.r;
   static double marginSize = 24.00.w;

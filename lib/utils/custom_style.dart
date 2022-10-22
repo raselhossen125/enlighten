@@ -1,3 +1,5 @@
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:enlighten/utils/custom_color.dart';
 import 'package:flutter/material.dart';
 import 'dimensions.dart';
@@ -31,6 +33,24 @@ class CustomStyle {
     fontWeight: FontWeight.w700,
     fontSize: Dimensions.largeTextSize,
     color: CustomColor.whiteColor,
+  );
+
+  static var Black20w500 = TextStyle(
+    fontWeight: FontWeight.w500,
+    fontSize: Dimensions.largeTextSize,
+    color: CustomColor.txtBlackColor,
+  );
+
+  static var Black15w400 = TextStyle(
+    fontWeight: FontWeight.w400,
+    fontSize: Dimensions.smallTextSize,
+    color: CustomColor.txtBlackColor,
+  );
+
+  static var Black20w700 = TextStyle(
+    fontWeight: FontWeight.w700,
+    fontSize: Dimensions.largeTextSize,
+    color: CustomColor.txtBlackColor,
   );
 
   static var white24w700 = TextStyle(

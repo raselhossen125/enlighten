@@ -26,15 +26,15 @@ class LogInPage extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              SizedBox(height: 66.h),
+              SizedBox(height: Dimensions.heightSize8 * 8 + 2),
               Image.asset(CustomString.SpalashImage, height: 200.h, width: 200.w),
-              SizedBox(height: 47.h),
+              SizedBox(height: Dimensions.heightSize8 * 6 - 4),
               Text(CustomString.STitle, style: CustomStyle.titleStyle),
-              SizedBox(height: 51.h),
+              SizedBox(height: Dimensions.heightSize8 * 6 + 3),
               MyTextField(controller: phoneController, title: CustomString.STF1),
-              SizedBox(height: 22.h),
+              SizedBox(height: Dimensions.heightSize8 * 3 - 2),
               MyTextField(controller: phoneController, title: CustomString.STF2),
-              SizedBox(height: 24.h),
+              SizedBox(height: Dimensions.heightSize8 * 3),
               InkWell(
                 onTap: () => Navigator.of(context).pushReplacementNamed(BottomNavBar.routeName),
                 child: CustomButon(
@@ -43,7 +43,7 @@ class LogInPage extends StatelessWidget {
                   prefixIconImage: CustomString.LogInImage,
                 ),
               ),
-              SizedBox(height: 22.h),
+              SizedBox(height: Dimensions.heightSize8 * 3 - 2),
               Text(
                 CustomString.SOtp,
                 style: CustomStyle.subTitletyle,

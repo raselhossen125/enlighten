@@ -23,6 +23,15 @@ class CustomString {
   static const String drawerFbImage = 'images/dfb.png';
   static const String drawerInstagramImage = 'images/dinstagram.png';
   static const String drawerYoutubeImage = 'images/dyoutube.png';
+  static const String homePersonImage = 'images/person.png';
+  static const String homePersonalImage = 'images/personal.png';
+  static const String homePropertyImage = 'images/property.png';
+  static const String homeFinansialImage = 'images/finansial.png';
+  static const String homeCallImage = 'images/callHome.png';
+  static const String homeBusinessmage = 'images/business.png';
+  static const String homeVideoImage = 'images/homeVideo.png';
+  static const String homeShopOnlineImage = 'images/homeShopOnline.png';
+  static const String homeBanerImage = 'images/homeBaner.png';
 
   static const String appbarTitleTxt = 'ENLIGHTEN MIND';
 
@@ -51,4 +60,17 @@ class CustomString {
   static const String DRatext = 'RATE US';
   static const String DAvailablext = 'Available on';
   static const String DSignOutxt = 'Sign Out';
+
+  // home page
+  static const String HPersonTitleTxt = 'Get The Best\nAstrology Consultation';
+  static const String HPersonDescTxt = '“I am K Jagadish, an Astrologer, Life coach, Author, Spiritual Thinker and an Entrepreneur, with over 50 years of experience in Astrology and approach with a research and scientific bent of mind with a holistic life challenging experience thus far.”';
+  static const String HPersonBtncTxt = 'BOOK A CONSULATION';
+  static const String HTitlecTxt = 'Astrology Advice for Everyone';
+  static const String HAstrologyBusinessTxt = 'Business\nDecisions';
+  static const String HAstrologyPropertyTxt = 'Property\nDeals';
+  static const String HAstrologyFinansialTxt = 'Financial\nDeals';
+  static const String HAstrologyPersonalTxt = 'Personal\nLife';
+  static const String HVideoTxt = 'Video';
+  static const String HShopTxt = 'Shop Online';
+
 }

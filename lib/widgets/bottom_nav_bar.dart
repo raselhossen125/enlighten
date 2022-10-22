@@ -56,7 +56,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
           currentIndex: _currentIndex,
           onTap: _updateIndex,
           selectedLabelStyle: CustomStyle.primary11w400,
-          unselectedItemColor: CustomColor.primaryColor,
+          unselectedItemColor: CustomColor.primaryColor.withOpacity(0.70),
           unselectedLabelStyle: CustomStyle.primary11w400,
           items: [
             BottomNavigationBarItem(
