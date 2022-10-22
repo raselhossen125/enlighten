@@ -32,6 +32,8 @@ class CustomString {
   static const String homeVideoImage = 'images/homeVideo.png';
   static const String homeShopOnlineImage = 'images/homeShopOnline.png';
   static const String homeBanerImage = 'images/homeBaner.png';
+  static const String paymentSucessfullImage = 'images/sucessfull.png';
+  static const String rechargeImage = 'images/rechargeImage.png';
 
   static const String appbarTitleTxt = 'ENLIGHTEN MIND';
 
@@ -78,10 +80,22 @@ class CustomString {
   static const String CBtncTxt = 'CONSULATION NOW';
   static const String CTitle1Txt = 'Get first 15 Min. Personalized one to one phone consultation';
   static const String CTitle2Txt = 'Personalized one to one consultation on the phone';
-  static const String CTitle3Txt = 'Personalized consultation';
+  static const String CTitle3Txt = 'Personalized consultation on message';
   static const double CAmount1Txt = 499;
   static const double CAmount2Txt = 499;
   static const double CAmount3Txt = 100;
+
+
+
+  // payment sucessfull page
+  static const String PSBtnTxt = 'CAll Our Expert';
+  static const String PSTitleTxt = 'thanks you for\nyour payment';
+
+
+  // appbar bottomSheat 
+  static const String BSTitleTxt = 'Reacharge';
+  static const String BSSubtitleTxt = 'Please reacharge your wallet before calling';
+
 
 
 }

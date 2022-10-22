@@ -48,7 +48,7 @@ class MainDrawer extends StatelessWidget {
                       dense: true,
                       contentPadding: EdgeInsets.all(0),
                       leading: Image.asset(itemM.image),
-                      title: Text(itemM.title, style: CustomStyle.white16w500),
+                      title: Text(itemM.title.toUpperCase(), style: CustomStyle.white16w500),
                     );
                   },
                 ),

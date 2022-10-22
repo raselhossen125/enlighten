@@ -5,10 +5,12 @@ import '../utils/custom_string.dart';
 class ConsulationModel {
   double amount;
   String title;
+  bool isFree;
 
   ConsulationModel({
     required this.amount,
     required this.title,
+    this.isFree = false,
   });
 }
 
@@ -16,6 +18,7 @@ List<ConsulationModel> ConsulationList = [
   ConsulationModel(
     amount: CustomString.CAmount1Txt,
     title: CustomString.CTitle1Txt,
+    isFree: true,
   ),
   ConsulationModel(
     amount: CustomString.CAmount2Txt,

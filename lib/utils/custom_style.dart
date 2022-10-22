@@ -53,6 +53,12 @@ class CustomStyle {
     color: CustomColor.txtBlackColor,
   );
 
+  static var Black20w900 = TextStyle(
+    fontWeight: FontWeight.w900,
+    fontSize: Dimensions.largeTextSize,
+    color: CustomColor.txtBlackNormalColor,
+  );
+
   static var Black21w400 = TextStyle(
     fontWeight: FontWeight.w400,
     fontSize: Dimensions.largeTextSize21,
@@ -63,6 +69,13 @@ class CustomStyle {
     fontWeight: FontWeight.w700,
     fontSize: Dimensions.extraLargeTextSize,
     color: CustomColor.txtBlackColor,
+  );
+
+  static var Black23w700LineThrow = TextStyle(
+    fontWeight: FontWeight.w700,
+    fontSize: Dimensions.extraLargeTextSize,
+    color: CustomColor.txtBlackColor,
+    decoration: TextDecoration.lineThrough,
   );
 
   static var white24w700 = TextStyle(
