@@ -47,45 +47,51 @@ class _BottomNavBarState extends State<BottomNavBar> {
             topRight: Radius.circular(Dimensions.radius * 2),
           ),
         ),
-        child: BottomNavigationBar(
-          backgroundColor: CustomColor.bgColor,
-          elevation: 5,
-          type: BottomNavigationBarType.fixed,
-          currentIndex: _currentIndex,
-          onTap: _updateIndex,
-          selectedLabelStyle: CustomStyle.primary11w400,
-          unselectedItemColor: CustomColor.primaryColor.withOpacity(0.70),
-          unselectedLabelStyle: CustomStyle.primary11w400,
-          items: [
-            BottomNavigationBarItem(
-              label: CustomString.HomeTxt,
-              icon: Padding(
-                padding: EdgeInsets.only(bottom: 4.r),
-                child: Image.asset(CustomString.HomeImage),
+        child: ClipRRect(
+          borderRadius: BorderRadius.only(
+            topLeft: Radius.circular(Dimensions.radius * 2),
+            topRight: Radius.circular(Dimensions.radius * 2),
+          ),
+          child: BottomNavigationBar(
+            backgroundColor: CustomColor.bgColor,
+            elevation: 5,
+            type: BottomNavigationBarType.fixed,
+            currentIndex: _currentIndex,
+            onTap: _updateIndex,
+            selectedLabelStyle: CustomStyle.primary11w400,
+            unselectedItemColor: CustomColor.primaryColor.withOpacity(0.70),
+            unselectedLabelStyle: CustomStyle.primary11w400,
+            items: [
+              BottomNavigationBarItem(
+                label: CustomString.HomeTxt,
+                icon: Padding(
+                  padding: EdgeInsets.only(bottom: 4.r),
+                  child: Image.asset(CustomString.HomeImage),
+                ),
               ),
-            ),
-            BottomNavigationBarItem(
-              label: CustomString.CallTxt,
-              icon: Padding(
-                padding: EdgeInsets.only(bottom: 4.r),
-                child: Image.asset(CustomString.CallImage),
+              BottomNavigationBarItem(
+                label: CustomString.CallTxt,
+                icon: Padding(
+                  padding: EdgeInsets.only(bottom: 4.r),
+                  child: Image.asset(CustomString.CallImage),
+                ),
               ),
-            ),
-            BottomNavigationBarItem(
-              label: CustomString.WhatsAppTxt,
-              icon: Padding(
-                padding: EdgeInsets.only(bottom: 4.r),
-                child: Image.asset(CustomString.WhatsappImage),
+              BottomNavigationBarItem(
+                label: CustomString.WhatsAppTxt,
+                icon: Padding(
+                  padding: EdgeInsets.only(bottom: 4.r),
+                  child: Image.asset(CustomString.WhatsappImage),
+                ),
               ),
-            ),
-            BottomNavigationBarItem(
-              label: CustomString.ProfileTxt,
-              icon: Padding(
-                padding: EdgeInsets.only(bottom: 4.r),
-                child: Image.asset(CustomString.ProfileImage),
+              BottomNavigationBarItem(
+                label: CustomString.ProfileTxt,
+                icon: Padding(
+                  padding: EdgeInsets.only(bottom: 4.r),
+                  child: Image.asset(CustomString.ProfileImage),
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

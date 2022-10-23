@@ -35,6 +35,12 @@ class CustomStyle {
     color: CustomColor.primaryColor.withOpacity(0.80),
   );
 
+  static var primary14w700 = TextStyle(
+    fontWeight: FontWeight.w700,
+    fontSize: Dimensions.extraSmallTextSize,
+    color: CustomColor.primaryColor
+  );
+
   static var white20w700 = TextStyle(
     fontWeight: FontWeight.w700,
     fontSize: Dimensions.largeTextSize,

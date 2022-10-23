@@ -73,7 +73,8 @@ class CustomString {
 
   // home page
   static const String HPersonTitleTxt = 'Get The Best\nAstrology Consultation';
-  static const String HPersonDescTxt = '“I am K Jagadish, an Astrologer, Life coach, Author, Spiritual Thinker and an Entrepreneur, with over 50 years of experience in Astrology and approach with a research and scientific bent of mind with a holistic life challenging experience thus far.”';
+  static const String HPersonDescTxt =
+      '“I am K Jagadish, an Astrologer, Life coach, Author, Spiritual Thinker and an Entrepreneur, with over 50 years of experience in Astrology and approach with a research and scientific bent of mind with a holistic life challenging experience thus far.”';
   static const String HPersonBtncTxt = 'BOOK A CONSULATION';
   static const String HTitlecTxt = 'Astrology Advice for Everyone';
   static const String HAstrologyBusinessTxt = 'Business\nDecisions';
@@ -83,27 +84,25 @@ class CustomString {
   static const String HVideoTxt = 'Video';
   static const String HShopTxt = 'Shop Online';
 
-
   // consulation page
   static const String CBtncTxt = 'CONSULATION NOW';
-  static const String CTitle1Txt = 'Get first 15 Min. Personalized one to one phone consultation';
-  static const String CTitle2Txt = 'Personalized one to one consultation on the phone';
+  static const String CTitle1Txt =
+      'Get first 15 Min. Personalized one to one phone consultation';
+  static const String CTitle2Txt =
+      'Personalized one to one consultation on the phone';
   static const String CTitle3Txt = 'Personalized consultation on message';
   static const double CAmount1Txt = 499;
   static const double CAmount2Txt = 499;
   static const double CAmount3Txt = 100;
 
-
-
   // payment sucessfull page
   static const String PSBtnTxt = 'CAll Our Expert';
   static const String PSTitleTxt = 'thanks you for\nyour payment';
 
-
-  // appbar bottomSheat 
+  // appbar bottomSheat
   static const String BSTitleTxt = 'Reacharge';
-  static const String BSSubtitleTxt = 'Please reacharge your wallet before calling';
-
+  static const String BSSubtitleTxt =
+      'Please reacharge your wallet before calling';
 
   // payment page
   static const String PLanguageTxt = 'English';
@@ -120,8 +119,6 @@ class CustomString {
   static const String PPhonetxt = '+919899069642';
   static const String PGmailtxt = 'info@dixinfotech.com';
 
-
-
   // wallet page
   static const String WbtnTxt = 'Add money to wallet';
   static const String WbalanceTxt = 'Wallet Balance';
@@ -130,8 +127,6 @@ class CustomString {
   static const String WTransactionIdTxt = 'TI-43853538';
   static const String WTransactionDateTxt = '25/05/2022';
   static const double WTransactionAmountTxt = 500;
-
-
 
   // form details page
   static const String FNameTxt = 'Name';
@@ -142,6 +137,7 @@ class CustomString {
   static const String FMessageTxt = 'Message';
   static const String FBtnTxt = 'Submit';
 
-
-
+  // slider 
+  static const String sliderTxt = 'Worry about your\nfuture?\nConsult a Astrologer';
+  static const String sliderBtnTxt = 'Consultation';
 }
