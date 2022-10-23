@@ -40,8 +40,10 @@ class CustomString {
   static const String googlePymage = 'images/googlepay.png';
   static const String editmage = 'images/edit.png';
   static const String cardImage = 'images/card.png';
+  static const String walletImage = 'images/WalletFill.png';
 
   static const String appbarTitleTxt = 'ENLIGHTEN MIND';
+  static const String rupySymbool = '₹';
 
   // spalash page
   static const String STitle = 'Login/ Register';
@@ -117,6 +119,17 @@ class CustomString {
   static const String PCardSubtitletxt = 'Visa, MasterCard, RuPay & More';
   static const String PPhonetxt = '+919899069642';
   static const String PGmailtxt = 'info@dixinfotech.com';
+
+
+
+  // wallet page
+  static const String WbtnTxt = 'Add money to wallet';
+  static const String WbalanceTxt = 'Wallet Balance';
+  static const String WPTTxt = 'Previous Transaction';
+  static const double WbalanceRupyTxt = 50;
+  static const String WTransactionIdTxt = 'TI-43853538';
+  static const String WTransactionDateTxt = '25/05/2022';
+  static const double WTransactionAmountTxt = 500;
 
 
 

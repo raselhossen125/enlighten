@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class Dimensions {
   static double extraLargeTextSize = 24.00.sp;
+  static double veryextraLargeTextSize = 30.00.sp;
 
   static double defaultTextSize = 18.00.sp;
   static double mediumTextSize = 16.00.sp;

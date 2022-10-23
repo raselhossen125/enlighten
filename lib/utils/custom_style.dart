@@ -41,6 +41,18 @@ class CustomStyle {
     color: CustomColor.txtBlackColor,
   );
 
+  static var Black30w500 = TextStyle(
+    fontWeight: FontWeight.w500,
+    fontSize: Dimensions.veryextraLargeTextSize,
+    color: CustomColor.txtBlackColor,
+  );
+
+  static var Black14w300 = TextStyle(
+    fontWeight: FontWeight.w300,
+    fontSize: Dimensions.extraSmallTextSize,
+    color: CustomColor.txtBlackColor,
+  );
+
   static var Black15w400 = TextStyle(
     fontWeight: FontWeight.w400,
     fontSize: Dimensions.smallTextSize,
