@@ -33,7 +33,7 @@ class LogInPage extends StatelessWidget {
               SizedBox(height: Dimensions.heightSize8 * 6 + 3),
               MyTextField(controller: phoneController, title: CustomString.STF1),
               SizedBox(height: Dimensions.heightSize8 * 3 - 2),
-              MyTextField(controller: phoneController, title: CustomString.STF2),
+              MyTextField(controller: otpController, title: CustomString.STF2),
               SizedBox(height: Dimensions.heightSize8 * 3),
               InkWell(
                 onTap: () => Navigator.of(context).pushReplacementNamed(BottomNavBar.routeName),

@@ -10,6 +10,8 @@ class CustomColor {
   static const Color tFFillColor = Color(0xffF5F5F5);
   static const Color crownNormalColor = Color(0xffD66F57);
   static const Color crownDarkColor = Color(0xffB85C46);
+  static const Color borderColor = Color(0xffE3E2E2);
+  static const Color hintTextColor = Color(0xffB5AFAF);
 
 
 

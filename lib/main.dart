@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'views/consulation_page.dart';
+import 'views/details_form_page.dart';
 import 'views/home_page.dart';
 import 'views/login_page.dart';
 import 'views/paymet_sucessfull_page.dart';
@@ -48,6 +49,7 @@ class MyApp extends StatelessWidget {
             PaymentPage.routeName: (context) => PaymentPage(),
             ConsulationPage.routeName: (context) => ConsulationPage(),
             WalletPage.routeName: (context) => WalletPage(),
+            DetailsFormPage.routeName: (context) => DetailsFormPage(),
             PaymentSucessfullPage.routeName: (context) =>
                 PaymentSucessfullPage(),
           },

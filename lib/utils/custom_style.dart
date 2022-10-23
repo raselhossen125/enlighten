@@ -23,6 +23,12 @@ class CustomStyle {
     color: CustomColor.txtBlackColor,
   );
 
+  static var hintText400w16 = TextStyle(
+    fontWeight: FontWeight.w400,
+    fontSize: Dimensions.mediumTextSize,
+    color: CustomColor.hintTextColor,
+  );
+
   static var primary11w400 = TextStyle(
     fontWeight: FontWeight.w400,
     fontSize: Dimensions.extraSmallestTextSize,

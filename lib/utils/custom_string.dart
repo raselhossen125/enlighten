@@ -133,4 +133,15 @@ class CustomString {
 
 
 
+  // form details page
+  static const String FNameTxt = 'Name';
+  static const String FEmailTxt = 'Email';
+  static const String FDOBTxt = 'Date of Birth';
+  static const String FBTTxt = 'Birth Time';
+  static const String FCityTxt = 'City';
+  static const String FMessageTxt = 'Message';
+  static const String FBtnTxt = 'Submit';
+
+
+
 }

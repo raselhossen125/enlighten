@@ -7,6 +7,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../utils/custom_color.dart';
 import '../utils/custom_style.dart';
 import '../views/consulation_page.dart';
+import '../views/details_form_page.dart';
 import '../views/home_page.dart';
 import '../views/paymet_sucessfull_page.dart';
 import '../views/profile_page.dart';
@@ -23,7 +24,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
   List _screens = [
     HomePage(),
     ConsulationPage(),
-    PaymentSucessfullPage(),
+    DetailsFormPage(),
     ProfilePage(),
   ];
 
