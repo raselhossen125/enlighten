@@ -6,6 +6,7 @@ import '../utils/custom_color.dart';
 import '../utils/custom_string.dart';
 import '../utils/custom_style.dart';
 import '../utils/dimensions.dart';
+import '../views/wallet_page.dart';
 import 'custom_button.dart';
 
 class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -32,7 +33,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
       actions: [
         InkWell(
           onTap: () {
-            
+            Navigator.of(context).pushNamed(WalletPage.routeName);
           },
           child: Image.asset(CustomString.appbarImage),
         ),

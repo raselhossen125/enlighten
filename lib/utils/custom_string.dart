@@ -35,6 +35,11 @@ class CustomString {
   static const String paymentSucessfullImage = 'images/sucessfull.png';
   static const String rechargeImage = 'images/rechargeImage.png';
   static const String insafImage = 'images/insaf.png';
+  static const String phonePeImage = 'images/phonepe.png';
+  static const String payTmImage = 'images/pay-tm.png';
+  static const String googlePymage = 'images/googlepay.png';
+  static const String editmage = 'images/edit.png';
+  static const String cardImage = 'images/card.png';
 
   static const String appbarTitleTxt = 'ENLIGHTEN MIND';
 
@@ -103,6 +108,15 @@ class CustomString {
   static const String PInsafTxt = 'Insaaf';
   static const String PInsafDescTxt = 'Consultancy Payment';
   static const String PPriceTxt = '₹  99';
+  static const String PGooglePaytxt = 'UPI - Google Pay';
+  static const String PPaytmtxt = 'UPI - PayTm';
+  static const String PPhonePetxt = 'UPI - PhonePe';
+  static const String PPaymetMethodTitletxt = 'Preferred payment methods';
+  static const String PMoretxt = 'Cards, upi & more';
+  static const String PCardTitletxt = 'Card';
+  static const String PCardSubtitletxt = 'Visa, MasterCard, RuPay & More';
+  static const String PPhonetxt = '+919899069642';
+  static const String PGmailtxt = 'info@dixinfotech.com';
 
 
 

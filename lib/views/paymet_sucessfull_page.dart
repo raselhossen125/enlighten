@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors
 
+import 'package:enlighten/widgets/bottom_nav_bar.dart';
 import 'package:enlighten/widgets/main_drawer.dart';
 import 'package:enlighten/widgets/my_appbar.dart';
 import 'package:flutter/material.dart';
@@ -9,6 +10,7 @@ import '../utils/custom_string.dart';
 import '../utils/custom_style.dart';
 import '../utils/dimensions.dart';
 import '../widgets/custom_button.dart';
+import 'consulation_page.dart';
 
 class PaymentSucessfullPage extends StatelessWidget {
   static const routeName = 'payment-sucessfull';
@@ -51,12 +53,16 @@ class PaymentSucessfullPage extends StatelessWidget {
                       textAlign: TextAlign.center,
                     ),
                     SizedBox(height: Dimensions.heightSize8 * 4 + 1),
-                    CustomButon(
-                      height: 65.h,
-                      width: 240.w,
-                      title: CustomString.PSBtnTxt.toUpperCase(),
-                      isPrefixIcon: true,
-                      prefixIconImage: CustomString.homeCallImage,
+                    InkWell(
+                      onTap: () => Navigator.of(context)
+                          .pushReplacementNamed(BottomNavBar.routeName),
+                      child: CustomButon(
+                        height: 65.h,
+                        width: 240.w,
+                        title: CustomString.PSBtnTxt.toUpperCase(),
+                        isPrefixIcon: true,
+                        prefixIconImage: CustomString.homeCallImage,
+                      ),
                     ),
                   ],
                 ),

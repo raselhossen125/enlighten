@@ -3,10 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'views/consulation_page.dart';
 import 'views/home_page.dart';
 import 'views/login_page.dart';
 import 'views/paymet_sucessfull_page.dart';
 import 'views/peyment_page.dart';
+import 'views/wallet_page.dart';
 import 'widgets/bottom_nav_bar.dart';
 
 void main() {
@@ -44,6 +46,8 @@ class MyApp extends StatelessWidget {
             BottomNavBar.routeName: (context) => BottomNavBar(),
             HomePage.routeName: (context) => HomePage(),
             PaymentPage.routeName: (context) => PaymentPage(),
+            ConsulationPage.routeName: (context) => ConsulationPage(),
+            WalletPage.routeName: (context) => WalletPage(),
             PaymentSucessfullPage.routeName: (context) =>
                 PaymentSucessfullPage(),
           },

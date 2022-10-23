@@ -65,6 +65,12 @@ class CustomStyle {
     color: CustomColor.txtBlackColor,
   );
 
+  static var Black20Opacity21w700 = TextStyle(
+    fontWeight: FontWeight.w700,
+    fontSize: Dimensions.largeTextSize21,
+    color: CustomColor.txtBlackColor.withOpacity(0.20),
+  );
+
   static var Black23w700 = TextStyle(
     fontWeight: FontWeight.w700,
     fontSize: Dimensions.extraLargeTextSize,
